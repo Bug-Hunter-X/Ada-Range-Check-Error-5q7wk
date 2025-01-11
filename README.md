@@ -1,0 +1,3 @@
+# Ada Range Check Bug
+
+This repository demonstrates a subtle error related to range checks in Ada. The `Check_Range` function appears to correctly check if a number is within the range 1..10. However, the main program demonstrates a case where the range check might be ineffective due to how it interacts with function calls and potential compiler optimizations.  The solution shows how to mitigate this.
